@@ -3,7 +3,7 @@
 
 // Solution:
 
-const describe_city = (cityName, countryName) =>
+const describe_city = (cityName, countryName="Pakistan") =>
   console.log(`${cityName} in ${countryName}`);
 
 describe_city("Karachi", "Pakistan");
