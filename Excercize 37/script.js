@@ -2,7 +2,7 @@
 
 // Solution:
 
-function make_shirt(size, textMessage) {
+function make_shirt(size=22, textMessage="I Love JavaScript") {
   if (size === 20) {
     console.log(
       `This ${size} is the medium size of the shirt and this ${textMessage} text should be printed upon it`
@@ -17,6 +17,6 @@ function make_shirt(size, textMessage) {
     );
   }
 }
-make_shirt(20, "I Love JavaScript");
+make_shirt();
 make_shirt(22, "I Love JavaScript");
-make_shirt(18, "I Love JavaScript");
+make_shirt(16, "I Love Python");
