@@ -4,6 +4,5 @@
 
 const names = ["Rizwi", "Ali", "Muaz"];
 
-console.log(names[3]);
 
 console.log(names[2]);
